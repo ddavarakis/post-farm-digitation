@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  nodeserver:
+    container_name: file-digitation
+    image: jimydav/file-digitation:latest
+    restart: always
+
+    ports:
+      - 3000:3000
